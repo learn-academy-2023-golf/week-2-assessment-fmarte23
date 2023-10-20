@@ -8,54 +8,54 @@
 
 // --------------------1) What will this log?
 
-const cohort = "Golf 2023"
+// const cohort = "Golf 2023"
 // console.log(cohort.split(" "))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: [ "Golf", "2023"]
+// b) Verify and explain: [ 'Golf', '2023' ]--- takes the parameter that represents the string "Golf 2023"
 
 // --------------------2) What will this log?
 
-const greeter = (name) => {
-  `Hello, ${name}!`
-}
+// const greeter = (name) => {
+//   `Hello, ${name}!`
+// }
 // console.log(greeter("LEARN Student"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Hello, LEARN Student!
+// b) Verify and explain: undefined -- LEARN Student is not yet defined
 
 // --------------------3) What will this log?
 
-const onlyOdds = [11, 12, 13, 14, 15].filter((number) => number % 2 !== 0)
+// const onlyOdds = [11, 12, 13, 14, 15].filter((number) => number % 2 !== 0)
 // console.log(onlyOdds)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: undefined
+// b) Verify and explain: undefined. Must have a return for new array from .filter and must take in parameter to represent an array
 
 // --------------------4) What will this log?
 
-const myCodingSkills = {
-  languages: ["JavaScript", "Ruby"],
-  frameworks: ["React", "Ruby on Rails"],
-  databases: "PostgreSQL",
-  versionControl: "GitHub"
-}
+// const myCodingSkills = {
+//   languages: ["JavaScript", "Ruby"],
+//   frameworks: ["React", "Ruby on Rails"],
+//   databases: "PostgreSQL",
+//   versionControl: "GitHub"
+// }
 // console.log(myCodingSkills.languages[0])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: undefined
+// b) Verify and explain: undefined. myCodingSkills.languages is not a function
 
 // --------------------5) What will this log?
 
-class Learn {
-  constructor(name) {
-    this.student = name
-    this.cohort = "Golf"
-    this.year = 2023
-  }
-}
-const learnStudent = new Learn("George")
+// class Learn {
+//   constructor(name) {
+//     this.student = name
+//     this.cohort = "Golf"
+//     this.year = 2023
+//   }
+// }
+// const learnStudent = new Learn("George")
 // console.log(learnStudent)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: { student: 'George', cohort: 'Golf', year: 2023 }
+// b) Verify and explain: { student: 'George', cohort: 'Golf', year: 2023 }
